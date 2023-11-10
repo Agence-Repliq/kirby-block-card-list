@@ -1,0 +1,32 @@
+{
+    "name": "agence-repliq/kirby-block-page",
+    "description": "Custom Block for Kirby CMS blocks editor to add a link to a internal page.",
+    "type": "kirby-plugin",
+    "license": "MIT",
+    "config": {
+        "optimize-autoloader": true
+    },
+    "authors": [
+        {
+            "name": "Baptiste lhopitault",
+            "homepage": "https://repliq.fr"
+        }
+    ],
+    "extra": {
+        "installer-name": "kirby-block-page"
+    },
+    "support": {
+		"issues": "https://github.com/Agence-Repliq/kirby-block-page/issues",
+		"source": "https://github.com/Agence-Repliq/kirby-block-page"
+	},
+    "keywords": [
+        "kirby",
+        "blocks",
+        "kirby-cms",
+        "kirby-plugin",
+        "custom-block"
+    ],
+    "require": {
+        "getkirby/composer-installer": "^1.1"
+    }
+}

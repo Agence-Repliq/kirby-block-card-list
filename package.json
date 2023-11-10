@@ -1,0 +1,14 @@
+{
+    "name": "kirby-block-card-page",
+    "description": "Custom block for Kirby CMS block editor",
+    "postcss": {},
+
+    "scripts": {
+        "dev": "kirbyup src/index.js --watch",
+        "serve": "kirbyup serve src/index.js",
+        "build": "kirbyup src/index.js"
+    },
+    "devDependencies": {
+        "kirbyup": "latest"
+    }
+}

@@ -1,0 +1,38 @@
+name: card page
+icon: image
+fields:
+  cardType:
+    label: Card Type
+    type: radio
+    default: page
+    options:
+      page: Create card from page
+      manual: Create manual card
+  page:
+    type: pages
+    max: 1
+    when:
+      cardType: page
+  link:
+    type: url
+    when:
+      cardType: manual
+  image:
+    label: Image
+    type: files
+    uploads: image
+    when:
+      cardType: manual
+  heading:
+    label: Heading
+    inline: true
+    marks: false
+    type: writer
+    when:
+      cardType: manual
+  text:
+    label: Text
+    type: writer
+    marks: false
+    when:
+      cardType: manual
