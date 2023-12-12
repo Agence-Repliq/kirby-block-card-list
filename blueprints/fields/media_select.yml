@@ -1,0 +1,26 @@
+type: group
+fields:
+  media_type:
+    label: media
+    type: select
+    default: none
+    width: 1/2
+    options:
+      none : Aucun
+      image: Image
+      number: Nombre
+      icon: Icon
+
+  media_img:
+    label: Image
+    type: files
+    multiple: false
+    when:
+      media: image
+
+  media_number:
+    label: Nombre
+    type: text
+    inline: true
+    when:
+      media: number

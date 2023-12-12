@@ -1,0 +1,48 @@
+name: card page
+icon: image
+fields:
+  card_source:
+    label: Contenu des carte
+    type: toggles
+    default: page
+    options:
+      - value: page
+        text: Page
+        icon: page
+      - value: manual
+        text: Manuel
+        icon: edit
+
+  card_template:
+    label: Type de carte
+    type: select
+    options:
+      list_manual_people: people
+      list_manual_arguments: Arguments
+
+  list_page_select:
+    label: Sélection de page
+    type: pages
+    when:
+      card_source: page
+
+  list_manual_people:
+    extends: fields/list_structure
+    label: People
+    when:
+      card_source: manual
+      card_template: list_manual_people
+    fields:  
+      description:
+        label: Description
+        inline: true
+        type: text
+  
+  list_manual_arguments:
+    extends: fields/list_structure
+    label: Arguments
+    when:
+      card_source: manual
+      card_template: list_manual_arguments
+    
+    

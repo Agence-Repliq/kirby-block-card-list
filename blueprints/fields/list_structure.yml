@@ -1,0 +1,12 @@
+label: List
+type: structure
+columns:
+  media:
+      width: 1/4
+  title:
+      width: 3/4
+fields: 
+  title:
+    label: title
+    inline: true
+    type: text

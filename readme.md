@@ -1,4 +1,4 @@
-Build from kirby cookbook [https://getkirby.com/docs/cookbook/panel/block-collection#card-type-block](https://getkirby.com/docs/cookbook/panel/block-collection#card-type-block)
+Build from kirby cookbook [https://getkirby.com/docs/guide/page-builder/block-examples#card-type-block](https://getkirby.com/docs/guide/page-builder/block-examples#card-type-block)
 
 NO READY FOR PRODUCTION
 
