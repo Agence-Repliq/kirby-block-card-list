@@ -1,5 +1,5 @@
-name: card page
-icon: image
+name: Liste de carte
+icon: grid
 fields:
   card_source:
     label: Contenu des carte
@@ -7,7 +7,7 @@ fields:
     default: page
     options:
       - value: page
-        text: Page
+        text: Pages
         icon: page
       - value: manual
         text: Manuel
